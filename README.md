@@ -3,7 +3,7 @@
 ![BlasterX](screenshot.png)
 
 A control panel for Creative Sound Blaster cards on the CA0132 codec (AE-5,
-AE-5 Plus, AE-7, AE-9, Z, ZxR, Recon3D) on Linux, in the spirit of Creative's
+AE-5 Plus, AE-7, Z, ZxR, Recon3D) on Linux, in the spirit of Creative's
 Windows-only Sound Blaster Command. It talks to the card's ALSA mixer
 directly, so everything the `snd_hda_codec_ca0132` driver exposes is here:
 
