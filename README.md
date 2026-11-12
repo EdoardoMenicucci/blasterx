@@ -22,6 +22,17 @@ Changes apply to the card as you make them, and changes made elsewhere
 (`alsamixer`, scripts) show up in the window. The card keeps its settings
 across reboots through `alsactl`, which Arch runs at boot.
 
+## Install
+
+On Arch Linux, install the package from the
+[latest release](https://github.com/EdoardoMenicucci/blasterx/releases/latest):
+
+```sh
+sudo pacman -U https://github.com/EdoardoMenicucci/blasterx/releases/download/v0.1.0/blasterx-0.1.0-1-x86_64.pkg.tar.zst
+```
+
+To build it from source instead, see [Build](#build).
+
 ## Keyboard
 
 | Key | Action |
