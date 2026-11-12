@@ -1,0 +1,6 @@
+{
+  "Applied %1, but %n controls could not be set.": {
+    "one": "Applied %1, but %n control could not be set.",
+    "other": "Applied %1, but %n controls could not be set."
+  }
+}

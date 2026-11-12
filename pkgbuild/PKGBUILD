@@ -1,0 +1,23 @@
+pkgname=blasterx
+pkgver=0.1.0
+pkgrel=1
+pkgdesc='Control panel for Creative Sound Blaster cards on the CA0132 codec (AE-5, AE-7, Z)'
+arch=('x86_64' 'aarch64')
+license=('MIT')
+depends=('qt6-base' 'qt6-declarative' 'qt6-wayland' 'alsa-lib')
+makedepends=('gcc' 'make' 'pkgconf')
+source=()
+sha256sums=()
+
+build() {
+  cd "$startdir/.."
+  ./bin/build
+}
+
+package() {
+  cd "$startdir/.."
+  install -Dm755 build/blasterx "$pkgdir/usr/bin/blasterx"
+  install -Dm644 LICENSE "$pkgdir/usr/share/licenses/$pkgname/LICENSE"
+  install -Dm644 "$startdir/blasterx.svg" "$pkgdir/usr/share/icons/hicolor/scalable/apps/blasterx.svg"
+  install -Dm644 "$startdir/blasterx.desktop" "$pkgdir/usr/share/applications/blasterx.desktop"
+}

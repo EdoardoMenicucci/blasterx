@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=Application
+Name=BlasterX
+Comment=Equalizer, effects and output of your Sound Blaster
+Comment[it]=Equalizzatore, effetti e uscita della tua Sound Blaster
+GenericName=Sound card control
+GenericName[it]=Controllo scheda audio
+Exec=blasterx
+Icon=blasterx
+Terminal=false
+Categories=AudioVideo;Audio;Mixer;Settings;
+Keywords=sound;blaster;creative;ae-5;equalizer;eq;audio;
+Keywords[it]=suono;audio;equalizzatore;creative;sound blaster;
+StartupWMClass=blasterx

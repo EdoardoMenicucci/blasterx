@@ -1,0 +1,24 @@
+<RCC>
+    <qresource prefix="/">
+        <file alias="AllControlsPage.qml">AllControlsPage.qml</file>
+        <file alias="ChoiceButton.qml">ChoiceButton.qml</file>
+        <file alias="EffectsPage.qml">EffectsPage.qml</file>
+        <file alias="EngineNotice.qml">EngineNotice.qml</file>
+        <file alias="EqBand.qml">EqBand.qml</file>
+        <file alias="EqualizerPage.qml">EqualizerPage.qml</file>
+        <file alias="FxCard.qml">FxCard.qml</file>
+        <file alias="HelpOverlay.qml">HelpOverlay.qml</file>
+        <file alias="Main.qml">Main.qml</file>
+        <file alias="MicrophonePage.qml">MicrophonePage.qml</file>
+        <file alias="OutputPage.qml">OutputPage.qml</file>
+        <file alias="PageScroll.qml">PageScroll.qml</file>
+        <file alias="Panel.qml">Panel.qml</file>
+        <file alias="ProfilesPage.qml">ProfilesPage.qml</file>
+        <file alias="SettingChoice.qml">SettingChoice.qml</file>
+        <file alias="SettingSlider.qml">SettingSlider.qml</file>
+        <file alias="SettingSwitch.qml">SettingSwitch.qml</file>
+        <file alias="Style.js">Style.js</file>
+        <file alias="i18n/en.json">i18n/en.json</file>
+        <file alias="i18n/it.json">i18n/it.json</file>
+    </qresource>
+</RCC>
